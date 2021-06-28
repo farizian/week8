@@ -1,0 +1,23 @@
+1. Buatlah variable yang bertype data object yeng berisi property sbb:
+id: integer
+invoice: string
+cashier: string
+date: string
+paidOff: boolean
+details:  array of object minimal 3 elements, 
+	property: nama
+	Product: string, 
+	price: integer, 
+	qty: integer
+
+2. buatlah function untuk menampilkan namaProduct dari property details element ke 2
+
+3. buatlah function untuk mendapatkan details (semua elements), 
+kemudian tampilkan element ke 3 menggunakan callback
+
+4. buatlah variable controller bertype object yang berisi method sbb:
+    getInvoice => menampilkan invoice
+    getCashier => menampilkan cashier
+    getDate => menampilkan date
+    getTotal => menampilkan total
+    getData => menampilkan method getInvoice, getDate, getTotal
